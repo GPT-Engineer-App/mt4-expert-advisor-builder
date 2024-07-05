@@ -63,6 +63,45 @@ const Index = () => {
       </section>
 
       <section className="mb-8">
+        <Card>
+          <CardHeader>
+            <CardTitle>Account Overview</CardTitle>
+          </CardHeader>
+          <CardContent>
+            <p>Here you can see a summary of your account.</p>
+            {/* Add relevant details for account overview */}
+          </CardContent>
+        </Card>
+      </section>
+
+      <section className="mb-8">
+        <Card>
+          <CardHeader>
+            <CardTitle>New Challenge</CardTitle>
+          </CardHeader>
+          <CardContent>
+            <Button className="w-full">Create New Challenge</Button>
+          </CardContent>
+        </Card>
+      </section>
+
+      <section className="mb-8">
+        <Card>
+          <CardHeader>
+            <CardTitle>Account Details</CardTitle>
+          </CardHeader>
+          <CardContent>
+            <ul>
+              <li>Account 1 - Active</li>
+              <li>Account 2 - Inactive</li>
+              <li>Account 3 - Pending</li>
+              {/* Add more accounts and their statuses as needed */}
+            </ul>
+          </CardContent>
+        </Card>
+      </section>
+
+      <section className="mb-8">
         <Tabs defaultValue="features">
           <TabsList>
             <TabsTrigger value="features">Features</TabsTrigger>
