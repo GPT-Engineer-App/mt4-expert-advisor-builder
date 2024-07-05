@@ -9,7 +9,7 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { cn } from "@/lib/utils";
-import { CircleUser, Menu, Package2, Trophy, DollarSign, Calendar, Users, Settings, LogOut, Star, Affiliate } from "lucide-react";
+import { CircleUser, Menu, Package2, Trophy, DollarSign, Calendar, Users, Settings, LogOut, Star, Heart } from "lucide-react";
 import { NavLink, Outlet } from "react-router-dom";
 import { navItems } from "../App";
 
@@ -77,7 +77,7 @@ const Sidebar = () => (
             Calendar
           </SidebarNavLink>
           <SidebarNavLink to="/affiliate">
-            <Affiliate className="h-5 w-5" />
+            <Heart className="h-5 w-5" />
             Affiliate
           </SidebarNavLink>
           <SidebarNavLink to="/settings">
@@ -137,7 +137,7 @@ const MobileSidebar = () => (
           Calendar
         </SidebarNavLink>
         <SidebarNavLink to="/affiliate">
-          <Affiliate className="h-5 w-5" />
+          <Heart className="h-5 w-5" />
           Affiliate
         </SidebarNavLink>
         <SidebarNavLink to="/settings">
